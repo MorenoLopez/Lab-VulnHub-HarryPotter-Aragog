@@ -1,4 +1,4 @@
-# HarryPotter: Aragog(1.0.2) (VulnHub) — Walkthrough
+# HarryPotter: Aragog(1.0.2) (VulnHub) - Walkthrough
 
 ## Description
 Aragog is the 1st VM of 3-box HarryPotter VM series in which you need to find 2 horcruxes hidden inside the machine (total 8 horcruxes hidden across 3 VMs of the HarryPotter Series) and ultimately defeat Voldemort.
@@ -89,7 +89,7 @@ searchsploit -m php/webapps/51224.py
 
 ---
 
-## 3. Exploitation — CVE-2020-25213
+## 3. Exploitation - CVE-2020-25213
 
 The PoC takes a URL and a command as arguments. First I read the script and ran a
 simple test.
@@ -108,7 +108,7 @@ python 51224.py http://192.168.88.15:80/blog "cat /etc/passwd"
 
 With a valid user list, I tried to get a real interactive shell instead of
 running one command at a time. The classic bash `/dev/tcp` one-liner did not
-work here — the command wrapper did not give a usable reverse shell.
+work here - the command wrapper did not give a usable reverse shell.
 
 ```bash
 nc -lvp 4444
@@ -235,7 +235,7 @@ cp -r /usr/share/wordpress/wp-content/uploads/ /tmp/tmp_wp_uploads
 ```
 
 The destination directory was owned by `root`, which means the script runs as
-**root** — most likely from a cron job. The critical detail was the script's
+**root** - most likely from a cron job. The critical detail was the script's
 permissions: it was owned/writable by my user, so root was executing a file I
 could modify.
 
@@ -346,4 +346,4 @@ nmap (22, 80) → /blog (WordPress) → outdated wp-file-manager
 A short but complete chain: an outdated plugin gave unauthenticated code
 execution, a readable config leaked database credentials, a weak password turned
 that into a user account, and a single writable root cron script finished the
-job. Each weakness is common on its own — the damage comes from chaining them.
+job. Each weakness is common on its own - the damage comes from chaining them.

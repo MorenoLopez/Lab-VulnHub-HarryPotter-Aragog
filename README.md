@@ -1,9 +1,7 @@
-# HarryPotter: Aragog - part 1 (VulnHub) — Walkthrough
+# HarryPotter: Aragog(1.0.2) (VulnHub) — Walkthrough
 
-A walkthrough of the **Aragog** boot2root VM from VulnHub: enumeration of a
-WordPress blog, exploitation of an outdated plugin for unauthenticated RCE,
-credential recovery from a leaked database config, and privilege escalation
-through a root-owned backup script.
+## Description
+Aragog is the 1st VM of 3-box HarryPotter VM series in which you need to find 2 horcruxes hidden inside the machine (total 8 horcruxes hidden across 3 VMs of the HarryPotter Series) and ultimately defeat Voldemort.
 
 - **Machine:** [HarryPotter: Aragog (1.0.2)](https://www.vulnhub.com/entry/harrypotter-aragog-102,688/)
 - **Author:** Mansoor R (@time4ster)

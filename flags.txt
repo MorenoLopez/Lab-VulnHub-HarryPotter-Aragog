@@ -1,0 +1,33 @@
+- /home/hargrd98/horcrux1.txt :
+    horcrux_{MTogUmlkRGxFJ3MgRGlBcnkgZEVzdHJvWWVkIEJ5IGhhUnJ5IGluIGNoYU1iRXIgb2YgU2VDcmV0cw==}
+    
+    base64 decoded {1: RidDlE's DiAry dEstroYed By haRry in chaMbEr of SeCrets}
+
+
+
+- /root/horcrux2.txt :
+
+      ____                            _         _       _   _                 
+     / ___|___  _ __   __ _ _ __ __ _| |_ _   _| | __ _| |_(_) ___  _ __  ___ 
+    | |   / _ \| '_ \ / _` | '__/ _` | __| | | | |/ _` | __| |/ _ \| '_ \/ __|
+    | |__| (_) | | | | (_| | | | (_| | |_| |_| | | (_| | |_| | (_) | | | \__ \
+     \____\___/|_| |_|\__, |_|  \__,_|\__|\__,_|_|\__,_|\__|_|\___/|_| |_|___/
+                      |___/                                                   
+
+
+    Machine Author: Mansoor R (@time4ster)
+    Machine Difficulty: Easy
+    Machine Name: Aragog 
+    Horcruxes Hidden in this VM: 2 horcruxes
+
+    You have successfully pwned Aragog machine.
+    Here is your second hocrux: horcrux_{MjogbWFSdm9MbyBHYVVudCdzIHJpTmcgZGVTdHJPeWVkIGJZIERVbWJsZWRPcmU=}
+
+
+
+
+    # For any queries/suggestions feel free to ping me at email: time4ster@protonmail.com
+
+    
+    base64 decoded : {2: maRvoLo GaUnt's riNg deStrOyed bY DUmbledOre}
+

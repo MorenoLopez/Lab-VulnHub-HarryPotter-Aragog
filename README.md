@@ -339,20 +339,6 @@ nmap (22, 80) → /blog (WordPress) → outdated wp-file-manager
   → root → horcrux2
 ```
 
-### Remediation
-
-1. **Patch plugins.** Update `wp-file-manager` to a fixed release and delete
-   unused plugins; keep WordPress core and themes current.
-2. **Protect configuration.** Restrict permissions on
-   `/etc/wordpress/config-*.php` and rotate the exposed database credentials.
-3. **Strong passwords.** `hagrid98` fell to a standard wordlist attack; enforce a
-   password policy and add MFA where possible.
-4. **Harden scheduled tasks.** Root-executed scripts must be owned by `root` and
-   not writable by unprivileged users (`chown root:root`, `chmod 700`). Monitor
-   `/opt` and cron for modifications.
-5. **Audit SUID binaries.** Alert on new SUID files, especially in world-writable
-   locations like `/tmp`.
-
 ---
 
 ## 7. Takeaways
